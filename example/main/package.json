@@ -37,7 +37,8 @@
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-router": "^7.0.0",
-    "reflect-metadata": "^0.2.2"
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.4.8",

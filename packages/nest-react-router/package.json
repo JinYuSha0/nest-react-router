@@ -1,6 +1,6 @@
 {
   "name": "nest-react-router",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Using react-router in nest",
   "main": "server.js",
   "types": "index.d.ts",
@@ -9,16 +9,16 @@
       "node": {
         "types": "./index.d.ts",
         "development": {
-          "module-sync": "./server.mjs",
-          "default": "./server.mjs"
+          "module-sync": "./server.js",
+          "default": "./server.js"
         },
-        "module-sync": "./server.mjs",
+        "module-sync": "./server.js",
         "default": "./server.js"
       },
       "import": {
         "types": "./index.d.ts",
-        "development": "./server.mjs",
-        "default": "./server.mjs"
+        "development": "./server.js",
+        "default": "./server.js"
       },
       "default": {
         "types": "./index.d.ts",
@@ -30,16 +30,16 @@
       "node": {
         "types": "./index.d.ts",
         "development": {
-          "module-sync": "./server.mjs",
-          "default": "./server.mjs"
+          "module-sync": "./server.js",
+          "default": "./server.js"
         },
-        "module-sync": "./server.mjs",
+        "module-sync": "./server.js",
         "default": "./server.js"
       },
       "import": {
         "types": "./index.d.ts",
-        "development": "./server.mjs",
-        "default": "./server.mjs"
+        "development": "./server.js",
+        "default": "./server.js"
       },
       "default": {
         "types": "./index.d.ts",
@@ -51,20 +51,20 @@
       "node": {
         "types": "./client/index.d.ts",
         "development": {
-          "module-sync": "./client.mjs",
-          "default": "./client.mjs"
+          "module-sync": "./client.js",
+          "default": "./client.js"
         },
-        "module-sync": "./client.mjs",
+        "module-sync": "./client.js",
         "default": "./client.js"
       },
       "import": {
         "types": "./client/index.d.ts",
-        "development": "./client.mjs",
-        "default": "./client.mjs"
+        "development": "./client.js",
+        "default": "./client.js"
       },
       "default": {
         "types": "./client/index.d.ts",
-        "development": "./client.mjs",
+        "development": "./client.js",
         "default": "./client.js"
       }
     }
