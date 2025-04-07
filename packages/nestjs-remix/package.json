@@ -73,13 +73,13 @@
     "nestjs",
     "remix"
   ],
-  "homepage": "https://github.com/JinYuSha0/nest-remix",
+  "homepage": "https://github.com/JinYuSha0/nest-react-router",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JinYuSha0/nest-remix.git"
+    "url": "https://github.com/JinYuSha0/nest-react-router.git"
   },
   "bugs": {
-    "url": "https://github.com/JinYuSha0/nest-remix/issues"
+    "url": "https://github.com/JinYuSha0/nest-react-router/issues"
   },
   "author": "JinYuSha0",
   "license": "ISC",
