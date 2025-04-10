@@ -9,6 +9,9 @@ export default defineConfig({
     tsconfigPaths(),
     commonjs(),
   ] as UserConfig['plugins'],
+  ssr: {
+    noExternal: ['rxjs'],
+  },
   build: {
     rollupOptions: {
       external: ['nest-react-router'],

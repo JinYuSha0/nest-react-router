@@ -13,5 +13,6 @@ async function bootstrap() {
   app.useGlobalInterceptors(new GlobalInterceptor());
   await startNestReactRouter(app);
   await app.listen(3000);
+  console.log('listen on port 3000');
 }
 bootstrap();
