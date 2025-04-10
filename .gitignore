@@ -9,3 +9,7 @@ example/vite.config.mts.*
 # lock file
 *.lock
 *.lockb
+
+# yarn
+.yarn/
+.yarnrc.yml

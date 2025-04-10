@@ -18,8 +18,8 @@ export default [
   {
     input: path.resolve(__dirname, "src/client/index.ts"),
     output: {
-      file: path.resolve(__dirname, "packages/nest-react-router/client.js"),
-      format: "cjs",
+      file: path.resolve(__dirname, "packages/nest-react-router/client.mjs"),
+      format: "esm",
       sourcemap: true,
     },
     plugins: [resolve(), commonjs(), typescript()],
@@ -39,8 +39,8 @@ export default [
   {
     input: path.resolve(__dirname, "src/client/index.ts"),
     output: {
-      file: path.resolve(__dirname, "packages/nestjs-remix/client.js"),
-      format: "cjs",
+      file: path.resolve(__dirname, "packages/nestjs-remix/client.mjs"),
+      format: "esm",
       sourcemap: true,
     },
     plugins: [resolve(), commonjs(), typescript()],
