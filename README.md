@@ -102,7 +102,7 @@ git clone https://github.com/JinYuSha0/nest-remix.git
 yarn install
 yarn start:dev
 # If you want to try to get data from microservice
-yarn start:dev:microservice
+yarn start:dev2
 ```
 
 ## Integrate
@@ -175,6 +175,7 @@ ssr: {
       : [/* ... */],
   },
 ```
+
 </details>
 
 <br/>
@@ -191,5 +192,5 @@ ssr: {
       : [/* ... */],
   },
 ```
-</details>
 
+</details>

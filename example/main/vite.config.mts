@@ -10,7 +10,7 @@ export default defineConfig({
     commonjs(),
   ] as UserConfig['plugins'],
   ssr: {
-    noExternal: ['rxjs'],
+    external: ['rxjs'],
   },
   build: {
     rollupOptions: {

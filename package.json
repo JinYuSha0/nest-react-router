@@ -8,8 +8,8 @@
   "sideEffects": false,
   "scripts": {
     "start:dev": "cd example/main && npm run start:dev",
+    "start:dev2": "cross-env ENABLE_MICRO_SERVICE=true npm-run-all --parallel start:microservice start:dev",
     "start:microservice": "cd example/microservices && npm run start",
-    "start:dev:microservice": "cross-env ENABLE_MICRO_SERVICE=true npm-run-all --parallel start:microservice start:dev",
     "build": "rollup -c --bundleConfigAsCjs",
     "publish": "npm-run-all --parallel publish:router publish:remix",
     "publish:router": "cd packages/nest-react-router && npm publish --provenance --access public",
